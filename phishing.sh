@@ -61,7 +61,7 @@ if [ -z $link ];then
 random
 printf "\n Error !! Not ngrok link coming Try again!!\n"
 fi
-printf "\e[1;92m [\e[0m<\e[1;92m] Your Ngrok link:\e[0m\e[1;77m %s\e[0m\n\n" $link
+printf "\n\e[1;92m [\e[0m<\e[1;92m] Your Ngrok link:\e[0m\e[1;77m %s\e[0m\n\n" $link
 }
 s-n() {
 printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server...\n"
