@@ -206,7 +206,7 @@ start ;;
 esac
 }
 cd $PREFIX/bin
-if [ -e Phishing ]:then
+if [ -e Phishing ];then
 cd ~/Advance-Phishing
 banner
 else
