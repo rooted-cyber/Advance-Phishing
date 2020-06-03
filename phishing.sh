@@ -1,3 +1,4 @@
+#!/bin/bash
 trap 'printf "\n";stop' 2
 stop() {
 
@@ -212,7 +213,8 @@ banner
 else
 cd ~/Advance-Phishing
 unzip adv.zip
-cd sites
+rm adv.zip
+cd files
 bash setup.sh
 fi
 banner
