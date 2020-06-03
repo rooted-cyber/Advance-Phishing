@@ -166,7 +166,7 @@ start ;;
 start ;;
 14)server="spotify"
 start ;;
-15)server="github
+15)server="github"
 start ;;
 16)server="ipfinder"
 start ;;
