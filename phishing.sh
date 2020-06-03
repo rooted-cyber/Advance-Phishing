@@ -154,7 +154,7 @@ start ;;
 start ;;
 8)server="Netflix"
 start ;;
-9)server=instafollow"
+9)server="instafollow"
 start ;;
 10)server="amazonsign"
 start ;;
