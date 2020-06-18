@@ -1,5 +1,5 @@
-<img src="https://github.com/rooted-cyber/image-upload/raw/master/a1.png" style="width:300px;height:400px;">
-<img src="https://github.com/rooted-cyber/image-upload/raw/master/a2.png" style="width:300px;height:400px;">
+<img src="https://github.com/rooted-cyber/Advance-Phishing/raw/master/images/a1.png" style="width:300px;height:400px;">
+<img src="https://github.com/rooted-cyber/Advance-Phishing/raw/master/images//a2.png" style="width:300px;height:400px;">
 
 <pre>
  $ apt update
